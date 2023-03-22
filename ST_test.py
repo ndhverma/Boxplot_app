@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
+
 
 # Create a function to generate the box plot
 def generate_boxplot(data, x_column, y_column):
