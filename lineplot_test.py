@@ -26,7 +26,7 @@ if uploaded_file is not None:
     # Create the box plot
     fig, ax = plt.subplots()
     sns.lineplot(data = df, linestyle = 'dotted')
-    ax.set_title('Box Plot')
+    ax.set_title('Line Plot')
     ax.set_xlabel('Columns')
     ax.set_ylabel('Values')
     # create a "Update Plot" button
