@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib
 matplotlib.use('agg')
-import matplotlib.pyplot as plt
+
 
 
 st.title('Box Plot Example with CSV Upload')
