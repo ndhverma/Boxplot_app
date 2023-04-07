@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title('Box Plot Example with CSV Upload')
+st.title('Line Plot Example with CSV Upload')
 
 # Create file uploader
 uploaded_file = st.file_uploader('Upload a CSV file', type='csv')
