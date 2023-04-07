@@ -31,7 +31,7 @@ if uploaded_file is not None:
     # Create the box plot
     fig, ax = plt.subplots()
     sns.histplot(data=df, ax=ax)
-    ax.set_title('Box Plot')
+    ax.set_title('Histogram Plot')
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     # create a "Update Plot" button
