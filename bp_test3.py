@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 
-st.title('Box Plot Example with CSV Upload')
+st.title('Box Plot with CSV Upload')
 
 # Create file uploader
 uploaded_file = st.file_uploader('Upload a CSV file', type='csv')
